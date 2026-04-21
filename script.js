@@ -3,7 +3,6 @@ const buttons = document.querySelectorAll('button');
 let currentInput = '';
 let previousInput = '';
 let operation = null;
-import { Analytics } from "@vercel/analytics/next"
 function updateDisplay() {
   display.value = previousInput ? previousInput + ' ' + operation + ' ' + currentInput : currentInput;
 }
